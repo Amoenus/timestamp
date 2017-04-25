@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h1>Free Code Camp: Timestamp microservice</h1>
+            </div>
+            <div class="twelve columns">
+                <ul class="list-group">
+                    <li class="list-group-item active">What this microservice does?</li>
+                    <li class="list-group-item">Pass a string as a parameter, and it will check to see whether that string contains either a Unix timestamp or a natural language date</li>
+                    <li class="list-group-item">If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+                    <li class="list-group-item">If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+                </ul>
+                <div class="twelve columns">
+                    <h2>Example usage</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="six columns">
+                <p class="h3">Requests</p>
+                <pre><code>https://camper-api-project-amoenus.c9users.io/December 15, 2015</code></pre>
+                <pre><code>https://camper-api-project-amoenus.c9users.io/1450137600</code></pre>
+            </div>
+            <div class="six columns">
+                <p class="h3">Output</p>
+                <pre><code class="JSON">{ "unix": 1450137600, "natural": "December 15, 2015" }</code></pre>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
